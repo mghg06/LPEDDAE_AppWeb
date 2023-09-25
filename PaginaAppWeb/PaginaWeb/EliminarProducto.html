@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Producto</title>
+
+    <link rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ContenedorPrincipal">
+        <div class="Menu">
+            <a href="Inicio.html">Inicio</a>
+            <a href="NuevoProducto.html">Registrar Producto</a>
+            <a href="ModificarProducto.html">Modificar Producto</a>
+            <a href="EliminarProducto.html">Eliminar Producto</a>
+            <a href="MostrarProductos.html">Mostrar Producto</a>
+        </div>
+    </div>
+
+    <h1>Eliminar Producto</h1>
+    <form id="Formulario" name="Formulario Cancelar" method="post" action="php/borrar.php"> 
+        ID de Producto: <input type="text" class="datoEntrada" name="id_producto">
+        <br>
+        <input type="submit" id="procesar" name="boton" value="Eliminar Producto">
+    </form>
+</body>
+</html>
